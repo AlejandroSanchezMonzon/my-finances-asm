@@ -1,6 +1,5 @@
 import jwt from "jsonwebtoken";
 
-
 export async function validateAuth(authHeader: string | null): Promise<number | null> {
     if (!authHeader) {
         return null;
