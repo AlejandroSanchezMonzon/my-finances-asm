@@ -13,6 +13,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# sql schema
+db/schema.sql
+
 # environment variables
 .env
 .env.production
