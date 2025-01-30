@@ -9,6 +9,8 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
   output: 'server',
 
+  site: "https://my-finances-asm.vercel.app",
+
   vite: {
     plugins: [tailwindcss()]
   },
