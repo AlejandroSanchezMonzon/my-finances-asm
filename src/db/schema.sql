@@ -4,7 +4,7 @@
 CREATE TABLE IF NOT EXISTS Users (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   email TEXT UNIQUE NOT NULL,
-  password TEXT NOT NULL, -- Guárdala en hash (bcrypt, etc.)
+  password TEXT NOT NULL, -- Guardada en hash (bcrypt)
   createdAt TEXT,
   updatedAt TEXT
 );
